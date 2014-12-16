@@ -1,0 +1,33 @@
+# this is an example config file for pcb2gcode.
+# place this in the same directory as your gerber files to save typing
+
+# You may want to uncomment and change those in local project files
+back=christmas-tree-B_Cu.gbl
+drill=christmas-tree.drl
+#outline=christmas-tree-Edge_Cuts.gbr
+# parameters for isolation routing / engraving / etching
+zwork=-0.1
+zsafe=1
+zchange=25
+mill-feed=300
+mill-speed=30000
+#extra-passes=1
+#drill-front
+metric=1
+offset=0.2
+# parameters for cutting out boards
+zcut=-1.7
+cutter-diameter=3.175
+cut-feed=100
+cut-speed=200
+cut-infeed=1.7
+#drill-front=1
+# drilling parameters
+zdrill=-6
+drill-feed=300
+drill-speed=20000
+
+#offset=0.006
+smooth=1
+dpi=1000
+#max-deviation=0

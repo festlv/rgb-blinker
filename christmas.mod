@@ -1,0 +1,73 @@
+PCBNEW-LibModule-V1  Tue 16 Dec 2014 03:33:33 PM EET
+# encoding utf-8
+Units mm
+$INDEX
+RGB-LED
+SPST_SW
+$EndINDEX
+$MODULE RGB-LED
+Po 0 0 0 15 549034A5 00000000 ~~
+Li RGB-LED
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -1.9 1 1 0 0.15 N V 21 N "RGB-LED"
+T1 5.4 -2 1 1 0 0.15 N V 21 N "VAL**"
+DC 0 0 0.7 3.4 0.15 21
+$PAD
+Sh "1" C 1.3 1.3 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.4 0
+$EndPAD
+$PAD
+Sh "2" C 1.3 1.3 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -0.8 0
+$EndPAD
+$PAD
+Sh "3" C 1.2 1.2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.8 0
+$EndPAD
+$PAD
+Sh "4" C 1.2 1.2 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.4 0
+$EndPAD
+$EndMODULE RGB-LED
+$MODULE SPST_SW
+Po 0 0 0 15 54903361 00000000 ~~
+Li SPST_SW
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.5 1 1 0 0.15 N V 21 N "SPST_SW"
+T1 0.5 3 1 1 0 0.15 N V 21 N "VAL**"
+DS -4 -2 -4 2 0.15 21
+DS -4 2 4.5 2 0.15 21
+DS 4.5 2 4.5 -2 0.15 21
+DS 4.5 -2 -4 -2 0.15 21
+$PAD
+Sh "1" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.5 0
+$EndPAD
+$PAD
+Sh "2" C 1.5 1.5 0 0 0
+Dr 0.6 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.5 0
+$EndPAD
+$EndMODULE SPST_SW
+$EndLIBRARY

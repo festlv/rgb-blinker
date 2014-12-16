@@ -1,0 +1,80 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 16 Dec 2014 03:40:03 PM EET
+
+BeginCmp
+TimeStamp = /54903204;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /549030E4;
+Reference = D1;
+ValeurCmp = RGB-LED;
+IdModule  = RGB-LED;
+EndCmp
+
+BeginCmp
+TimeStamp = /5490281C;
+Reference = IC1;
+ValeurCmp = ATTINY85-P;
+IdModule  = DIP-8__300_ELL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5490377C;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /54902F73;
+Reference = Q1;
+ValeurCmp = PHOTO-TRANSISTOR;
+IdModule  = LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /549030B2;
+Reference = R1;
+ValeurCmp = 10K;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54902E1A;
+Reference = R2;
+ValeurCmp = 10K;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /549030F3;
+Reference = R3;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54903100;
+Reference = R4;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54903106;
+Reference = R5;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /54902839;
+Reference = SW1;
+ValeurCmp = SPST;
+IdModule  = SPST_SW;
+EndCmp
+
+EndListe
