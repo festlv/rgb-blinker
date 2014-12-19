@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 16 Dec 2014 03:40:03 PM EET
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = piektdiena, 2014. gada 19. decembris, plkst. 20 un 30
 
 BeginCmp
 TimeStamp = /54903204;
@@ -71,10 +71,10 @@ IdModule  = R3-LARGE_PADS;
 EndCmp
 
 BeginCmp
-TimeStamp = /54902839;
+TimeStamp = /54946EB8;
 Reference = SW1;
-ValeurCmp = SPST;
-IdModule  = SPST_SW;
+ValeurCmp = SW_PUSH;
+IdModule  = SW_PUSH_SMALL;
 EndCmp
 
 EndListe

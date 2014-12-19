@@ -30,14 +30,13 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:christmas
-LIBS:christmas-tree-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Christmas tree oranament"
-Date "16 dec 2014"
+Date "19 dec 2014"
 Rev ""
 Comp "R. Veips"
 Comment1 ""
@@ -57,17 +56,6 @@ F 3 "~" H 6100 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST SW1
-U 1 1 54902839
-P 3400 4650
-F 0 "SW1" H 3400 4750 70  0000 C CNN
-F 1 "SPST" H 3400 4550 70  0000 C CNN
-F 2 "~" H 3400 4650 60  0000 C CNN
-F 3 "~" H 3400 4650 60  0000 C CNN
-	1    3400 4650
-	1    0    0    -1  
-$EndComp
-$Comp
 L GND #PWR01
 U 1 1 54902DDB
 P 2800 4900
@@ -83,7 +71,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 4250 8300 4250
 Wire Wire Line
-	2800 4650 2900 4650
+	2800 4650 3200 4650
 $Comp
 L GND #PWR02
 U 1 1 54902DF5
@@ -163,7 +151,7 @@ L R R1
 U 1 1 549030B2
 P 2700 3150
 F 0 "R1" V 2780 3150 40  0000 C CNN
-F 1 "10K" V 2707 3151 40  0000 C CNN
+F 1 "50K" V 2707 3151 40  0000 C CNN
 F 2 "~" V 2630 3150 30  0000 C CNN
 F 3 "~" H 2700 3150 30  0000 C CNN
 	1    2700 3150
@@ -221,21 +209,13 @@ Connection ~ 2700 3500
 Wire Wire Line
 	5200 2550 3850 2550
 Wire Wire Line
-	3850 2550 3850 3950
-Wire Wire Line
-	3850 3950 4750 3950
+	3850 2550 3850 4150
 Wire Wire Line
 	5200 2750 3950 2750
 Wire Wire Line
-	3950 2750 3950 3850
-Wire Wire Line
-	3950 3850 4750 3850
-Wire Wire Line
 	5200 2950 4050 2950
 Wire Wire Line
-	4050 2950 4050 3750
-Wire Wire Line
-	4050 3750 4750 3750
+	4050 2950 4050 3850
 $Comp
 L GND #PWR05
 U 1 1 549031D8
@@ -267,12 +247,6 @@ Wire Wire Line
 	7700 4250 7700 4200
 Connection ~ 7600 4250
 Wire Wire Line
-	3650 4050 4750 4050
-Wire Wire Line
-	4750 4150 3900 4150
-Wire Wire Line
-	3900 4150 3900 4650
-Wire Wire Line
 	3650 3500 3650 4050
 $Comp
 L CONN_2 P1
@@ -300,4 +274,31 @@ F 3 "~" H 6300 2350 60  0000 C CNN
 	1    6300 2350
 	1    0    0    -1  
 $EndComp
+$Comp
+L SW_PUSH SW1
+U 1 1 54946EB8
+P 3500 4650
+F 0 "SW1" H 3650 4760 50  0000 C CNN
+F 1 "SW_PUSH" H 3500 4570 50  0000 C CNN
+F 2 "~" H 3500 4650 60  0000 C CNN
+F 3 "~" H 3500 4650 60  0000 C CNN
+	1    3500 4650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4650 3950 4650
+Wire Wire Line
+	3850 4150 4750 4150
+Wire Wire Line
+	3950 4650 3950 3950
+Wire Wire Line
+	3950 3950 4750 3950
+Wire Wire Line
+	3650 4050 4750 4050
+Wire Wire Line
+	4050 3850 4750 3850
+Wire Wire Line
+	3950 3750 4750 3750
+Wire Wire Line
+	3950 2750 3950 3750
 $EndSCHEMATC
